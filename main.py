@@ -160,8 +160,8 @@ def index():
 
                 <div class="mb-3">
                     <label for="pasted_text_input" class="form-label">Paste USA Fencing Entrants:</label>
-                    <textarea id="pasted_text_input" name="pasted_text" rows="5" class="form-control" placeholder="Open the Entrants page on USA Fencing for the event. Use 'Select All' (Ctrl+A or Cmd+A) and 'Copy' (Ctrl+C or Cmd+C), then paste here."></textarea>
-                    <div class="form-text">Ensure you copy the entire page content.</div>
+                    <textarea id="pasted_text_input" name="pasted_text" rows="5" class="form-control" placeholder="On the USA Fencing entrants page: On Desktop, carefully select *only* the list of fencers with your mouse. On Mobile, 'Select All' might work better. Then Copy (Ctrl+C or Cmd+C) and Paste here."></textarea>
+                    <div class="form-text">Try to copy only the names/clubs/ratings. Extra text might interfere with parsing.</div>
                 </div>
 
                 <div class="d-flex justify-content-between align-items-center mt-4">
